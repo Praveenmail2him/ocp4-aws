@@ -57,7 +57,7 @@ This project uses mainly Terraform as infrastructure management and installation
 4. Get the Terraform code
 
    ```bash
-   git clone https://github.com/ibm-cloud-architecture/terraform-openshift4-aws.git
+   git clone https://github.com/Praveenmail2him/ocp4-aws.git
    ```
 
 5. Prepare the DNS
@@ -120,7 +120,7 @@ This project installs the OpenShift 4 in several stages where each stage automat
 ```
 cluster_id = "ocp4-9n2nn"
 clustername = "ocp4"
-base_domain = "example.com"
+base_domain = "ocp4os.com"
 openshift_pull_secret = "./openshift_pull_secret.json"
 openshift_installer_url = "https://mirror.openshift.com/pub/openshift-v4/clients/ocp/latest"
 
@@ -235,7 +235,7 @@ Once the mirror registry is created - use the terraform.tfvars similar to below:
 ```
 cluster_id = "ocp4-9n2nn"
 clustername = "ocp4"
-base_domain = "example.com"
+base_domain = "ocp4os.com"
 openshift_pull_secret = "./openshift_pull_secret.json"
 openshift_installer_url = "https://mirror.openshift.com/pub/openshift-v4/clients/ocp/latest"
 
